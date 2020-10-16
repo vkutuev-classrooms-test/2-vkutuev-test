@@ -5,26 +5,6 @@
 #include "sort.h"
 
 
-/**  Bubble sort
-int sort(int *arr, int size) {
-    int copy[100], transposCount = 0;
-    for (int i = 0; i < size; ++i)
-        copy[i] = arr[i];
-    for (int i = 0; i < size; ++i) {
-        for (int j = 0; j < size - i - 1; ++j) {
-            if (arr[j] > arr[j + 1]) {
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
-        }
-        if (arr[size - i - 1] != copy[size - i - 1])
-            transposCount++;
-    }
-    return transposCount;
-}
-*/
-
 int to = 0, from = 0;
 int exist_to = 0, exist_from = 0;
 
